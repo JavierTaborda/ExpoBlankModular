@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# 🚀 Expo Modular Blank Template
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Expo Version](https://img.shields.io/badge/expo-50.0.0-blue.svg)
+![React Native Version](https://img.shields.io/badge/react%20native-0.73.0-blue.svg)
+![TypeScript](https://img.shields.io/badge/typescript-5.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## Get started
+A professional, production-ready starter template for Expo apps featuring modular architecture, tab navigation, and authentication flows.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features / Características 
 
-2. Start the app
+- **Modular architecture** — Organize code by feature for scalability and maintainability.
+- **Expo Router** — File-based routing for intuitive navigation.
+- **Authentication** — Built-in login and registration flows.
+- **Example modules** — Includes Home, Tab1, and Tab2 modules.
+- **State management** — Powered by Zustand.
+- **TypeScript** — Strict, production-ready configuration.
+- **Testing** — Preconfigured with Jest and Testing Library.
+- **Environment variables** — .env support out of the box.
 
-   ```bash
-   npx expo start
-   ```
+- **Arquitectura modular** — Organiza el código por Features para mejorar la escalabilidad y mantenimiento.
+- **Enrutador Expo** — Enrutamiento de Expo (carpetas)
+- **Autenticación** — Organizacion para crear autenticación
+- **Módulos de ejemplo** — Incluye los módulos Home, Tab1 y Tab2.
+- **Gestión de estado** — Diseñado para Zustand.
+- **TypeScript** — Configuración estricta y lista para producción.
+- **Pruebas** — Carpetas para trabajar  con Jest y Testing Library.
+- **Variables de entorno** — Soporte para .env desde el inicio.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🏗️ Project Structure / Estructura del Proyecto
 
 ```bash
-npm run reset-project
+.
+├── app/         # Expo Router Only screens/Solo pantallas 
+├── modules/     # Feature modules (self-contained) /Modulos de la Aplicacion  
+├── components/  # Shared UI components / Componentes UI Compartidos
+├── hooks/       # Global hooks
+├── services/    # Shared services (API, etc.) / Servicios compartidos
+├── stores/      # Global state (Zustand) / estado global creado para Zustand 
+└── utils/       # Utility functions / Funciones de utilidades
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🚀 Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+### Quick Start / Inicio Rápido
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+# Clone and install / Clonar e instalar
+git clone https://github.com/your-user/expo-modular.git
+cd expo-modular
+npm install
 
-## Join the community
+# Start development server / Iniciar servidor
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## ➕ Add New Features / Agregar Nuevos Módulos
+
+To create a new module:
+
+```bash
+mkdir -p modules/NewFeature/{components,hooks,services,stores,types}
+```
+
+---
+you need install te packages, feel free to customize and extend this template to fit your project's needs!
+
+Debes instalar los paquetes necesarios, siéntete libre de personalizar y extender esta plantilla para adaptarla a las necesidades de tu proyecto.
