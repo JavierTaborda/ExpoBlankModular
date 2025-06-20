@@ -20,6 +20,7 @@ A professional, production-ready starter template for Expo apps featuring modula
 - **Testing** — Preconfigured with Jest and Testing Library.
 - **Environment variables** — .env support out of the box.
 
+**Español**
 - **Arquitectura modular** — Organiza el código por Features para mejorar la escalabilidad y mantenimiento.
 - **Enrutador Expo** — Enrutamiento de Expo (carpetas)
 - **Autenticación** — Organizacion para crear autenticación
