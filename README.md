@@ -5,7 +5,7 @@
 ![TypeScript](https://img.shields.io/badge/typescript-5.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-A professional, production-ready starter template for Expo apps featuring modular architecture, tab navigation, and authentication flows.
+A professional, production-ready starter template for Expo apps featuring modular architecture, tab navigation, drawer and authentication flows.
 
 ---
 
@@ -53,8 +53,8 @@ A professional, production-ready starter template for Expo apps featuring modula
 
 ```bash
 # Clone and install / Clonar e instalar
-git clone https://github.com/your-user/expo-modular.git
-cd expo-modular
+git clone https://github.com/JavierTaborda/ExpoBlankModular.git
+cd ExpoBlankModular
 npm install
 
 # Start development server / Iniciar servidor
