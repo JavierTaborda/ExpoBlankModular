@@ -9,7 +9,6 @@ export default function RootLayout() {
       <Drawer
         drawerContent={CustomDrawerContent}
         screenOptions={({ route }) => ({
-      
           headerShown: true,
           headerStyle: { backgroundColor: '#0fb50a' },
           headerTintColor: '#fff',
