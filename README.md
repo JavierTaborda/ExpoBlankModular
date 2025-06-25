@@ -5,7 +5,7 @@
 ![TypeScript](https://img.shields.io/badge/typescript-5.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-A professional, production-ready starter template for Expo apps featuring modular architecture, tab navigation, and authentication flows.
+A professional, production-ready starter template for Expo apps featuring modular architecture, tab navigation, drawer and authentication flows.
 
 ---
 
@@ -20,6 +20,7 @@ A professional, production-ready starter template for Expo apps featuring modula
 - **Testing** — Preconfigured with Jest and Testing Library.
 - **Environment variables** — .env support out of the box.
 
+**Español**
 - **Arquitectura modular** — Organiza el código por Features para mejorar la escalabilidad y mantenimiento.
 - **Enrutador Expo** — Enrutamiento de Expo (carpetas)
 - **Autenticación** — Organizacion para crear autenticación
@@ -52,8 +53,8 @@ A professional, production-ready starter template for Expo apps featuring modula
 
 ```bash
 # Clone and install / Clonar e instalar
-git clone https://github.com/your-user/expo-modular.git
-cd expo-modular
+git clone https://github.com/JavierTaborda/ExpoBlankModular.git
+cd ExpoBlankModular
 npm install
 
 # Start development server / Iniciar servidor
